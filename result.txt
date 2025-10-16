@@ -1,0 +1,13 @@
+SNoramlRamp_NSW1_30min_48_3_PatchTST_3dConv_self_Pcgrad_NSW1_30min_ftM_sl48_ll12_pl3_dm256_nh8_el2_dl1_df512_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mae:22.26604461669922, mse:777.9415893554688, rmse:27.891603469848633, mape:inf, mspe:inf
+
+SNoramlRamp_NSW1_30min_48_3_PatchTST_3dConv_self_Pcgrad_NSW1_30min_ftM_sl48_ll12_pl3_dm256_nh8_el2_dl1_df512_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+accuracy:0.6598324663079147, precision:0.5332210294041104, recall:0.6598324663079147, f1:0.5634497543213848
+
+MNormalRamp_NSW1_30min_48_3_PatchTST_3dConv_self_Pcgrad_NSW1_30min_ftM_sl48_ll12_pl3_dm256_nh8_el2_dl1_df512_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mae:26.492450714111328, mse:977.6452026367188, rmse:31.267318725585938, mape:inf, mspe:infaccuracy:0.6393149379647667, precision:0.4087235899048935, recall:0.6393149379647667, f1:0.4986516994865303
+
+MixRamp_NSW1_30min_48_3_PatchTST_3dConv_self_Pcgrad_NSW1_30min_ftM_sl48_ll12_pl3_dm256_nh8_el2_dl1_df512_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mae:29.547685623168945, mse:1221.1165771484375, rmse:34.94447708129883, mape:inf, mspe:infaccuracy:0.853779957158744, precision:0.8521596325107119, recall:0.853779957158744, f1:0.8524885483985034
+
+
