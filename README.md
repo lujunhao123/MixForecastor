@@ -7,65 +7,6 @@ Within the field of wind energy prediction, existing studies mainly focus on mod
     <img src="./pic/MixForecastor.png" width="600">
 </p>
 
-
-## Project Structure
-
-```bash
-├── dataset/                   # Dataset files
-│   ├── NSW1_30min_labeled_dataset.csv
-
-├── data_provider/             # Data loading and preprocessing
-│   ├── ramp_data_factory.py
-│   ├── ramp_data_loader.py
-│   ├── ...
-├── exp/                       # Experiment scripts
-│   ├── exp_basic.py
-│   ├── exp_ramp_normal.py      # Mixed time series (without addressing heterogeneity)
-│   ├── exp_ramp_normalS.py     # Single-task learning
-│   └── exp_ramp_normalM.py     # Multi-task learning
-
-├── layers/                     # Model layer definitions
-│   ├── ASHLayer.py
-│   ├── AutoCorrelation.py
-│   ├── Autoformer_EncDec.py
-│   ├── Conv_Blocks.py
-│   ├── Crossformer_EncDec.py
-│   └── ... 
-
-├── models/                     # Forecasting model architectures
-│   ├── Multi_task.py           # Multi-task model
-│   ├── Singel.py               # Single-task model
-│   └── Multi_taskm.py          # Mixed time series (without addressing heterogeneity)
-│   └── ...
-
-├── pic/                        # Visualization
-│   └── MixForecastor.png
-
-├── scripts/                    # Experiment execution scripts
-│   ├── TEST.sh
-
-├── test_results/               # Experiment execution scripts
-│   ├── Program 1
-│   ├── Program 2
-│   ├── ...
-
-├── utils/                      # Utilities
-│   ├── ADFtest.py
-│   ├── augmentation.py
-│   ├── dtw.py
-│   ├── dtw_metric.py
-│   ├── Famo.py
-│   └── methods/
-│       ├── min_norm_solvers.py
-│       ├── testing.py
-│       └── weight_methods.py
-
-├── result.txt  # result
-├── environment.yml                # Conda environment dependencies
-├── run_ramp.py                    # Main program
-└── README.md
-```
-
 ## ⚠️ Note to Users
 
 We welcome open-source contributions and hope this code benefits the community. However, to protect our key innovations, the core components of our approach are not yet publicly available.
