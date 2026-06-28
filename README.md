@@ -35,17 +35,5 @@ These results demonstrate the necessity of our work. The detailed prediction res
 | **Simple Mixed Sequence Modeling (MixRamp)** | `exp_ramp_normal.py` | Classification | – | – | – | 0.8538 | 0.8522 | 0.8538 | 0.8525 |
 
 
-##  Quick Start
-
-### 1. Setup Environment
-```bash
-conda env create -f environment.yml
-conda activate TSL
-```
-
-### 2. Run Experiments
-```bash
-bash ./scripts/TEST.sh
-```
 ## ‼️ **Important:**
 We plan to release the full version of the code in the future with all core functionalities and modules. Stay tuned for updates! 🚀
