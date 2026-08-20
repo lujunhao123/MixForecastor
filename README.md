@@ -9,8 +9,6 @@ Within the field of wind energy prediction, existing studies mainly focus on mod
 
 ## ⚠️ Note to Users
 
-We welcome open-source contributions and hope this code benefits the community. However, to protect our key innovations, the core components of our approach are not yet publicly available.
-
 This version of the code allows you to run three types of experiments and includes a dataset for testing:
 
 1. **Single-Task Learning** ([`exp_ramp_normalS.py`](./exp/exp_ramp_normalS.py))
@@ -33,7 +31,3 @@ These results demonstrate the necessity of our work. The detailed prediction res
 | **Multi-Task Learning (MTL)** | `exp_ramp_normalM.py` | Classification | – | – | – | 0.6393 | 0.4087 | 0.6393 | 0.4987 |
 | **Simple Mixed Sequence Modeling (MixRamp)** | `exp_ramp_normal.py` | Regression | 29.5477 | 1221.1166 | 34.9445 | – | – | – | – |
 | **Simple Mixed Sequence Modeling (MixRamp)** | `exp_ramp_normal.py` | Classification | – | – | – | 0.8538 | 0.8522 | 0.8538 | 0.8525 |
-
-
-## ‼️ **Important:**
-We plan to release the full version of the code in the future with all core functionalities and modules. Stay tuned for updates! 🚀
