@@ -11,9 +11,9 @@ Within the field of wind energy prediction, existing studies mainly focus on mod
 
 This version of the code allows you to run three types of experiments and includes a dataset for testing:
 
-1. **Single-Task Learning** ([`exp_ramp_normalS.py`](./exp/exp_ramp_normalS.py))
-2. **Multi-Task Learning** ([`exp_ramp_normalM.py`](./exp/exp_ramp_normalM.py))
-3. **Simple Mixed Sequence Modeling (MixRamp)** ([`exp_ramp_normal.py`](./exp/exp_ramp_normal.py))
+1. **Single-Task Learning**
+2. **Multi-Task Learning**
+3. **Simple Mixed Sequence Modeling (MixRamp)**
 
 From these experiments, two important observations emerge:
 
